@@ -1,4 +1,4 @@
-# Everforest Cupertino
+# OB Everforest
 
 An Obsidian theme with the soothing green palette of [Everforest](https://github.com/sainnhe/everforest), built on top of the native-style UI of [Baseline](https://github.com/aaaaalexis/obsidian-baseline).
 
