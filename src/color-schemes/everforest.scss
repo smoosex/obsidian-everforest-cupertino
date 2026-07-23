@@ -1,0 +1,126 @@
+/*
+Everforest
+https://github.com/sainnhe/everforest
+*/
+
+body.theme-light {
+  --accent-h: 83;
+  --accent-s: 25%;
+  --accent-l: 50%;
+
+  --color-red-rgb: 200, 85, 82; // base0E
+  --color-orange-rgb: 239, 97, 94; // base0C
+  --color-yellow-rgb: 213, 150, 0; // base0B
+  --color-green-rgb: 135, 160, 96; // base0D
+  --color-cyan-rgb: 141, 161, 1; // base0A
+  --color-blue-rgb: 95, 155, 147; // base08
+  --color-purple-rgb: 182, 121, 150; // base09
+  --color-pink-rgb: 182, 121, 150; // base0F
+
+  --color-base-00: #fff9e8; // base00
+  --color-base-05: #f6f0df; // base01
+  --color-base-10: #ede7d6; // base02
+  --color-base-20: #e5dfce; // base03
+  --color-base-25: #ddd7c6; // base04
+  --color-base-30: color-mix(in srgb, #272f35 20%, #fff9e8);
+  --color-base-35: color-mix(in srgb, #272f35 30%, #fff9e8);
+  --color-base-40: color-mix(in srgb, #272f35 40%, #fff9e8);
+  --color-base-50: color-mix(in srgb, #272f35 50%, #fff9e8);
+  --color-base-60: color-mix(in srgb, #272f35 60%, #fff9e8);
+  --color-base-70: color-mix(in srgb, #272f35 80%, #fff9e8);
+  --color-base-100: #272f35; // base07
+
+  --background-primary: #fff9e8; // base00
+  --background-primary-alt: #f6f0df; // base01
+  --background-secondary: #f6f0df; // base01
+  --background-secondary-alt: #ede7d6; // base02
+
+  --background-modifier-border: #ddd7c6; // base04
+  --menu-border-color: #ddd7c6;
+
+  --interactive-normal: color-mix(in srgb, #495157 8%, #fff9e8);
+  --interactive-hover: color-mix(in srgb, #495157 14%, #fff9e8);
+
+  --text-normal: #3b4349; // base06
+  --text-muted: #495157; // base05
+  --text-faint: color-mix(in srgb, #495157 45%, #fff9e8);
+
+  --menu-background: #f6f0df;
+  --modal-background: #f6f0df;
+
+  --code-background: #ede7d6;
+  --blockquote-background-color: #f6f0df;
+  --embed-background-color: #f6f0df;
+
+  --code-normal: #3b4349;
+  --code-comment: color-mix(in srgb, #495157 55%, #fff9e8);
+  --code-function: #87a060;
+  --code-important: #d59600;
+  --code-keyword: #c85552;
+  --code-property: #5f9b93;
+  --code-punctuation: #495157;
+  --code-string: #8da101;
+  --code-tag: #c85552;
+  --code-value: #b67996;
+}
+
+body.theme-dark {
+  --accent-h: 83;
+  --accent-s: 34%;
+  --accent-l: 63%;
+
+  --color-red-rgb: 230, 126, 128; // base0E
+  --color-orange-rgb: 230, 152, 117; // base0C
+  --color-yellow-rgb: 219, 188, 127; // base0B
+  --color-green-rgb: 167, 192, 128; // base0D
+  --color-cyan-rgb: 131, 192, 146; // base0A
+  --color-blue-rgb: 127, 187, 179; // base08
+  --color-purple-rgb: 214, 153, 182; // base09
+  --color-pink-rgb: 214, 153, 182; // base0F
+
+  --color-base-00: #2b3339; // base00
+  --color-base-05: #323c41; // base01
+  --color-base-10: #3a4248; // base02
+  --color-base-20: #424a50; // base03
+  --color-base-25: #4a5258; // base04
+  --color-base-30: color-mix(in srgb, #d3c6aa 20%, #2b3339);
+  --color-base-35: color-mix(in srgb, #d3c6aa 30%, #2b3339);
+  --color-base-40: color-mix(in srgb, #d3c6aa 40%, #2b3339);
+  --color-base-50: color-mix(in srgb, #d3c6aa 50%, #2b3339);
+  --color-base-60: color-mix(in srgb, #d3c6aa 60%, #2b3339);
+  --color-base-70: color-mix(in srgb, #d3c6aa 80%, #2b3339);
+  --color-base-100: #e7dabe; // base07
+
+  --background-primary: #2b3339; // base00
+  --background-primary-alt: #323c41; // base01
+  --background-secondary: #323c41; // base01
+  --background-secondary-alt: #3a4248; // base02
+
+  --background-modifier-border: #3a4248; // base02
+  --menu-border-color: #3a4248;
+
+  --interactive-normal: color-mix(in srgb, #d3c6aa 8%, #2b3339);
+  --interactive-hover: color-mix(in srgb, #d3c6aa 14%, #2b3339);
+
+  --text-normal: #d3c6aa; // base05
+  --text-muted: color-mix(in srgb, #d3c6aa 60%, #2b3339);
+  --text-faint: color-mix(in srgb, #d3c6aa 35%, #2b3339);
+
+  --menu-background: #323c41;
+  --modal-background: #323c41;
+
+  --code-background: #323c41;
+  --blockquote-background-color: #323c41;
+  --embed-background-color: #323c41;
+
+  --code-normal: #d3c6aa;
+  --code-comment: color-mix(in srgb, #d3c6aa 50%, #2b3339);
+  --code-function: #a7c080;
+  --code-important: #dbbc7f;
+  --code-keyword: #e67e80;
+  --code-property: #7fbbb3;
+  --code-punctuation: #d3c6aa;
+  --code-string: #83c092;
+  --code-tag: #e67e80;
+  --code-value: #d699b6;
+}
