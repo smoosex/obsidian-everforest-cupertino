@@ -34,7 +34,7 @@
 
     .callout-title-inner {
       --p-spacing: 0;
-      color: color-mix(in srgb, rgb(var(--callout-color)), var(--text-normal) 15%);
+      color: color-mix(in srgb, var(--callout-color), var(--text-normal) 15%);
     }
 
     .callout-fold {
@@ -59,6 +59,6 @@
   // Callout: Tactile
   body:is(.mod-macos, .adaptive-mode-off) .callout:not([data-callout="note-toolbar"]) {
     box-shadow: var(--shadow-tactile);
-    background: linear-gradient(rgba(var(--callout-color), 0.1), rgba(var(--callout-color), 0.15));
+    background: linear-gradient(color-mix(in srgb, var(--callout-color) 10%, transparent), color-mix(in srgb, var(--callout-color) 15%, transparent));
   }
 }
